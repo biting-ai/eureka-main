@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
+        <module name="eureka-ribbon" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client" target="1.8" />
       <module name="eureka-main" target="1.8" />
+      <module name="eureka-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
