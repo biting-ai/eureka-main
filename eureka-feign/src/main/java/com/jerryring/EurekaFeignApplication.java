@@ -12,9 +12,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableDiscoveryClient
 @EnableEurekaClient
 @EnableHystrix
-public class EruekaFeignApplication {
+public class EurekaFeignApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EruekaFeignApplication.class, args);
+		SpringApplication.run(EurekaFeignApplication.class, args);
 	}
 }

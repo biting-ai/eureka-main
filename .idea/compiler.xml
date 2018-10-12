@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="erueka-feign" />
         <module name="eureka-client" />
+        <module name="eureka-feign" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
+        <module name="eureka-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="erueka-feign" target="1.8" />
       <module name="eureka-client" target="1.8" />
+      <module name="eureka-feign" target="1.8" />
       <module name="eureka-main" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
